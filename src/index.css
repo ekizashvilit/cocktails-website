@@ -8,11 +8,18 @@
 
 body {
   font-family: 'Roboto Flex', sans-serif;
-  color: #282727;
+  color: #dbc3a7;
+  background: linear-gradient(to bottom, #000 0%, #06273a);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .navbar {
-  background-color: #eae2d7;
+  background-color: #000;
+}
+
+.logo {
+  height: 100px;
 }
 
 .nav-center {
@@ -31,5 +38,58 @@ body {
 .link {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #282727;
+  color: #dbc3a7;
+}
+
+.link:hover {
+  color: #06273a;
+}
+
+.section {
+  margin: 4rem 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.section h1 {
+  font-size: 2rem;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.width {
+  max-width: 800px;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #265986;
+  color: #dbc3a7;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.7rem 3rem;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: #3673a8;
 }

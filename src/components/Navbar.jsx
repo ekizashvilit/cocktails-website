@@ -1,15 +1,12 @@
 import { Link } from 'react-router-dom';
+import logo from '../logo.jpg';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <Link to="/">
-          <img
-            src="https://img.freepik.com/free-vector/cocktail-lounge-logo-template-with-minimal-cocktail-glass_53876-117632.jpg?w=826&t=st=1677862961~exp=1677863561~hmac=6152831e2c8bd92036ee8042806bb36afe2b5b258e1ea980820ef0fbb6626151"
-            alt="cocktail logo"
-            height="100px"
-          />
+          <img src={logo} alt="cocktail logo" className="logo" />
         </Link>
         <ul className="nav-links">
           <li>
