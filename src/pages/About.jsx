@@ -1,6 +1,14 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
+  useEffect(() => {
+    document.body.classList.add('background-fixed');
+    return () => {
+      document.body.classList.remove('background-fixed');
+    };
+  }, []);
+
   return (
     <section className="section">
       <h1 className="section-title width">About Us</h1>

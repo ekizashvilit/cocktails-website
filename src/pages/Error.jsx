@@ -1,6 +1,14 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Error = () => {
+  useEffect(() => {
+    document.body.classList.add('background-fixed');
+    return () => {
+      document.body.classList.remove('background-fixed');
+    };
+  }, []);
+
   return (
     <section className="section">
       <div className="error-container">
