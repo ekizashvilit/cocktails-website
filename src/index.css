@@ -154,6 +154,7 @@ body {
   text-align: center;
   margin-top: 6rem;
   letter-spacing: 2px;
+  margin-bottom: 436px;
 }
 
 .background-fixed {
@@ -164,7 +165,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 3rem 0;
+  margin: 4rem 10rem 0;
   gap: 4rem;
   padding-bottom: 4rem;
 }
@@ -190,6 +191,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 18px 0;
+  max-width: 18rem;
+  gap: 0.8rem;
 }
 
 img {
@@ -200,9 +203,10 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
   text-align: center;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
+  padding: 0 18px;
 }
 
 .text-div h2 {
@@ -221,4 +225,81 @@ img {
 
 .details:hover {
   color: #3673a8;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.form-section {
+  width: 100%;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section form {
+  width: 100%;
+  max-width: 800px;
+}
+
+.form-div {
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 5px;
+  flex-direction: column;
+  background: #06273a;
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-div input {
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+
+.form-div input:focus {
+  outline: none;
+  border: 3px solid #3673a8;
+}
+
+.form-div label {
+  color: #dbc3a7;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* SINGLE PAGE */
+.wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.wrapper img {
+  max-height: 400px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info p {
+  text-align: left;
+}
+
+.span {
+  background-color: rgba(54, 115, 168, 0.5);
+  padding: 4px 7px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
