@@ -159,6 +159,7 @@ body {
 
 .background-fixed {
   background-attachment: fixed;
+  padding-bottom: 1px;
 }
 
 .cocktails-section {
@@ -329,5 +330,21 @@ img {
 
   .cocktails-section h1 {
     font-size: 2rem;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper img {
+    max-height: 250px;
+  }
+
+  .section p {
+    font-size: 1rem;
   }
 }
