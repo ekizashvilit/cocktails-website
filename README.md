@@ -26,4 +26,4 @@
 
 ## Links
 
-- Live Site URL: [The Cocktail Lounge](https://magic-memory-game-tekizashvili.netlify.app/)
+- Live Site URL: [The Cocktail Lounge](https://the-cocktail-lounge.netlify.app/)
