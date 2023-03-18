@@ -310,6 +310,7 @@ img {
 @media (max-width: 650px) {
   .form-div input {
     height: auto;
+    padding: 2px 5px;
   }
 
   .form-div label {
